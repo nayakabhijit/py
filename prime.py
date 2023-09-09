@@ -8,7 +8,7 @@ def is_prime (num: int) -> bool:
             # 2 and n / 2, it is not prime
             if (num % i) == 0:
                 print(num, "is not a prime number")
-                return True
+                return False
                 break
         else:
             print(num, "is a prime number")
